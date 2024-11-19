@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: "Inter", sans-serif;
+} */
+
+
+:root {
+  font-family: "Raleway", sans-serif;
+  --primary-color: #1e1e1e; /* Dark background */
+  --secondary-color: #ffffff; /* White text */
+  --accent-color: #00ff6a; /* Cool green for hacker/coder vibes */
+}
+
+body {
+  margin: 0;
+  background-color: var(--primary-color); /* Use the dark background */
+  color: var(--secondary-color); /* White text for contrast */
+}
+
+/* Navbar Styling */
+.navbar {
+  padding: 10px 20px;
+  background-color: #2a2a2a;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h3 {
+  font-size: 32px;
+  color: var(--accent-color);
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+.navbar h3:hover {
+  transform: scale(1.2); /* Increase size when hovered */
+}
+
+/* Navbar buttons */
+.navbar button {
+  transition: all 0.3s ease;
+}
+
+.navbar button:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+  color: var(--accent-color); /* Change color on hover */
+}
+
+/* Clicked text changes */
+.navbar button.active {
+  font-size: 22px;
+  color: var(--accent-color);
+}
+
+
+.heading {
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 50px; /* Adjust space below heading */
+  text-align: center; /* Center the heading */
+  font-size: 2.25rem; /* Equivalent to text-4xl */
+  margin-top: 5rem; /* Equivalent to my-20 */
+}
