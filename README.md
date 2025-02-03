@@ -20,9 +20,9 @@ This portfolio features a collection of projects I’ve worked on, ranging from 
 
 Here are some of the projects you can explore in the portfolio:
 
-- **KathaStream:** A platform for local short films, celebrating diverse voices and cultures.
+- **KathaStream:** A platform for local short films, celebrating diverse voices and cultures, with a movie recommendation system and AskAI, an AI chatbot for general and platform-specific questions.
   
-- **SevaSquad:** A platform linking users to local service providers for home tasks.
+- **SevaSquad:** A platform linking users to local service providers for home tasks, with the integration of SevaPay, a Web3 wallet, and AskAI, an AI chatbot for general and platform-specific questions.
   
 - **Sorting Visualizer:** An interactive visual representation of different sorting algorithms.
   
