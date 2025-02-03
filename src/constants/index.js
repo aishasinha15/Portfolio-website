@@ -9,7 +9,7 @@ export const PROJECTS = [
     title: "KathaStream",
     image: kathaStream,
     description:
-      "A platform showcasing local short films and regional content, focusing on diverse storytelling from independent creators. It aims to promote unique voices across different languages and cultures through visual and cinematic experiences.",
+      "A platform showcasing local short films and regional content, focusing on diverse storytelling from independent creators. It aims to promote unique voices across different languages and cultures through visual and cinematic experiences. With the integration of AskAI and a movie recommender system, KathaStream enhances user engagement by providing intelligent search assistance and personalized content recommendations.",
     technologies: [
       "HTML",
       "CSS",
@@ -22,6 +22,10 @@ export const PROJECTS = [
       "Redux",
       "Material UI",
       "TMDB API",
+      "Vite",
+      "Gemini API",
+      "Python",
+      "Jupyter Notebook",
     ],
     link: "https://github.com/aishasinha15/KathaStream",
   },
@@ -29,8 +33,21 @@ export const PROJECTS = [
     title: "SevaSquad",
     image: sevasquad,
     description:
-      "A service-based platform that connects users with local service providers for a variety of tasks, including cleaning, repairs, and home maintenance. It offers a seamless booking system, service tracking, and secure payments for hassle-free home assistance.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "SevaSquad is a service-based platform that connects users with local service providers for various tasks, including cleaning, repairs, and home maintenance. It offers a seamless booking system, service tracking, and secure payments for hassle-free home assistance. The platform integrates Web3 wallet functionality and MetaMask, enabling users to perform secure, transparent transactions using blockchain technology. This integration facilitates decentralized payments between service providers and clients, enhancing trust and security within the platform",
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "Tailwind",
+      "JavaScript",
+      "Vite",
+      "Web3.js",
+      "Metamask",
+      "Gemini API",
+    ],
     link: "https://github.com/aishasinha15/SevaSquad",
   },
   {
